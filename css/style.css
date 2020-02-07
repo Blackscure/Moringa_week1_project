@@ -7,7 +7,7 @@ body{
 /*--------------Header CSS-----------------*/
 #header{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/office12.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/office12.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
