@@ -7,7 +7,7 @@ body{
 /*--------------Header CSS-----------------*/
 #header{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/office12.jpeg);
+    background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531);      
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -58,4 +58,35 @@ body{
 }
 .scroll-bar{
     animation: mover 1s infinite alternate; 
+}
+
+@keyframes mover 
+{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px);}
+}
+
+/*--------------About--------------*/
+.about{
+    padding-top: 100px;
+    margin-bottom: -130px;
+}
+.profile-img{
+    height: 330px;
+    width: 300px;
+    border: 10px solid rgb(78, 161, 230);
+    border-radius: 50%;
+}
+
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.navbar{
+    background-color: #000;
+}
+.navbar-brand{
+    font-family: lucida;
+    color: #fff;
 }
