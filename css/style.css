@@ -1,16 +1,31 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
+@media screen and (min-width: 480px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    }
+  
+
+ 
 
 /*--------------Header CSS-----------------*/
 #header{
     height: 100vh;
-    background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531);      
+    background: url(images/office12.jpeg), linear-gradient(#000, #d13531);   
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#header h1{
+    text-align: center;
+    text-shadow: 5px 4px 2px black;            
+}
+
+#header p{
+    text-align: center;
+    text-shadow: 5px 4px 2px black;    
 }
 
 .user-box{
@@ -89,17 +104,21 @@ h3{
 
 
 .top-nav{
+    background: black;
     top: 0;
     position: sticky;
     z-index: 2;
     float: right;
+    width: none;
      
 }
 
 .top-nav a{
     text-decoration: none;
-    font-size: x-large;
+    font-size: 27px;
     padding: 16px 10px;
+    color: cornsilk;
+    text-shadow: 5px 3px 2px rgb(219, 14, 82);
     
 }
 
@@ -169,4 +188,25 @@ h3{
     width: 20px;
     height: 20px;
     z-index: 1;
+}
+
+
+/*-----contact----*/
+
+.contact#contact{
+    background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531);   
+
+}
+
+.contact#contact h1{
+    color: #f9f9f9;
+    text-align: center;
+    text-shadow: 12px 6px 3px black;
+    font-family:  Roboto;
+}
+
+.contact#contact p{
+    text-align:center;
+    
+
 }
